@@ -75,3 +75,7 @@ LangChain이 Cypher 쿼리를 생성·실행하고 결과를 반환하는 모습
 
 Neo4j Browser(또는 Desktop)에서 동일한 쿼리 결과를 직접 확인한 화면입니다.  
 ![image](https://github.com/user-attachments/assets/61d404cb-de48-46a4-8129-c6507eea7b13)
+
+
+
+참고 블로그 --> https://uoahvu.tistory.com/entry/GraphRAG-Neo4j-DB%EC%99%80-LangChain-%EA%B2%B0%ED%95%A9%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%A7%88%EC%9D%98%EC%9D%91%EB%8B%B5-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-Kaggle-CSV-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0#GraphRAG%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-1
