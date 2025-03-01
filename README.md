@@ -11,8 +11,6 @@
 2. [시스템 아키텍처](#시스템-아키텍처)  
 3. [구성 요소](#구성-요소)  
 4. [실행 화면](#실행-화면)  
-5. [설치 및 사용 방법](#설치-및-사용-방법)  
-6. [참고 자료](#참고-자료)
 
 ---
 
@@ -33,7 +31,7 @@
 
 아래 다이어그램은 전체 프로세스를 나타냅니다.
 
-![시스템 아키텍처](https://raw.githubusercontent.com/USERNAME/REPO/main/docs/images/system_architecture.png)
+![image](https://github.com/user-attachments/assets/8dec9d19-d80d-4a84-96c4-b2111de00240)
 
 1. **사용자 질의** (예: “Who played in Top Gun?”)  
 2. **LangChain** → Cypher 쿼리 생성  
@@ -64,14 +62,16 @@
 ### 1) Neo4j 데이터베이스 내용
 
 Neo4j DB에 데이터가 적재된 모습입니다.  
-![Neo4j 데이터베이스 사진](https://raw.githubusercontent.com/USERNAME/REPO/main/docs/images/neo4j_database.png)
+![image](https://github.com/user-attachments/assets/b1b7741b-bbfa-41db-81d5-a817a2483230)
+
 
 ### 2) VSCode 콘솔 실행 결과
 
 LangChain이 Cypher 쿼리를 생성·실행하고 결과를 반환하는 모습입니다.  
-![VSCode 실행 결과](https://raw.githubusercontent.com/USERNAME/REPO/main/docs/images/vscode_run_result.png)
+![image](https://github.com/user-attachments/assets/4686814d-0ca1-42c9-b326-e880d1d1bf76)
+
 
 ### 3) Neo4j Desktop에서 동일 쿼리문 조회 결과
 
 Neo4j Browser(또는 Desktop)에서 동일한 쿼리 결과를 직접 확인한 화면입니다.  
-![Neo4j Desktop 쿼리 결과](https://raw.githubusercontent.com/USERNAME/REPO/main/docs/images/neo4j_desktop_query.png)
+![image](https://github.com/user-attachments/assets/61d404cb-de48-46a4-8129-c6507eea7b13)
