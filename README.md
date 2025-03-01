@@ -1,7 +1,7 @@
 # GraphRAG: Neo4j DB와 LangChain 결합을 통한 질의응답 구현하기
 
 > **GraphRAG** 프로젝트는 Neo4j 데이터베이스와 LangChain을 결합하여 질의응답(Question & Answer)을 수행하기 위한 데모/실습 예제입니다.  
-> Kaggle 데이터셋을 이용해 Neo4j에 데이터를 적재하고, LangChain을 통해 자연어 질의로부터 Cypher 쿼리를 자동 생성하고, 결과를 요약/응답하는 방식을 시연합니다.
+> No4j에서 제공하는 영화화 데이터셋을 이용해 Neo4j에 데이터를 적재하고, LangChain을 통해 자연어 질의로부터 Cypher 쿼리를 자동 생성하고, 결과를 요약/응답하는 방식을 시연합니다.
 > Neo4j에서 기본으로 제공하는 데이터 셋을 통해 DB를 만들고 실행
 
 ---
@@ -44,8 +44,7 @@
 ## 구성 요소
 
 1. **Neo4j Database**  
-   - 영화, 배우, 감독 등 그래프 데이터가 저장됨  
-   - Kaggle CSV 등을 통해 임포트
+   - 영화, 배우, 감독 등 그래프 데이터가 저장됨
 
 2. **LangChain**  
    - PromptTemplate / GraphCypherQAChain 사용  
