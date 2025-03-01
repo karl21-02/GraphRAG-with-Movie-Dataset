@@ -2,6 +2,7 @@
 
 > **GraphRAG** 프로젝트는 Neo4j 데이터베이스와 LangChain을 결합하여 질의응답(Question & Answer)을 수행하기 위한 데모/실습 예제입니다.  
 > Kaggle 데이터셋을 이용해 Neo4j에 데이터를 적재하고, LangChain을 통해 자연어 질의로부터 Cypher 쿼리를 자동 생성하고, 결과를 요약/응답하는 방식을 시연합니다.
+> Neo4j에서 기본으로 제공하는 데이터 셋을 통해 DB를 만들고 실행
 
 ---
 
